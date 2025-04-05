@@ -1,8 +1,9 @@
-# Switch On-Off OpenVPN Client di mikrotik
+# Switch On-Off OpenVPN Client di MikroTik
 Berikut ini adalah skrip Mikrotik untuk **memantau koneksi VPN client** (OpenVPN interface bernama `MyDNS`) dan **melakukan auto-reconnect** (disable lalu enable) jika terjadi **kegagalan ping 5x berturut-turut ke IP `10.8.8.1`**:
 
 ---
-
+buatlah /system script dgn nama: check-vpn
+#
 ### ✅ **Skrip Mikrotik Revisi (tanpa `:break`)**
 ```mikrotik
 # Skrip: check-vpn
