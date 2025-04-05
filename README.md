@@ -6,7 +6,6 @@ buatlah /system script dgn nama: check-vpn
 #
 ### ✅ **Skrip Mikrotik Revisi (tanpa `:break`)**
 ```mikrotik
-# Skrip: check-vpn
 :local vpnInterface "MyDNS"
 :local targetIP "10.8.8.1"
 :local failCount 0
